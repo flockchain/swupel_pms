@@ -17,7 +17,7 @@ const Solutions = () => {
                 <br/><br/>
                     Our Proof of Location Protocol is basically a Proof of Stake Protocol that is modified and improved to fit perfectly for our Use-Case
                     </p>
-                <img src="6316.jpg" className='w-[400px] h-[230px] pt-8 pb-4'/>
+                <img src="6316.jpg" className='w-[400px] h-[250px] pt-8 pb-4'/>
             </div>
         </div>
     )

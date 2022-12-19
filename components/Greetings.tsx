@@ -13,7 +13,7 @@ const Greetings = () => {
                     Blockchain for Land-Registry
                 </h3>
             </div>
-            <img src="GreetingsLogo.jpeg" className='w-[280px] h-[200px]'/>
+            <img src="GreetingsLogo.jpeg" className='w-[280px] h-[280px]'/>
             <div className='p-10'>
                 <button className='p-2 w-[180px] text-xq cursor-pointer duration-300 ease-in shadow-gray-500/50 hover:scale-[1.05]'>
                     <Link activeClass="active" to="demo" spy={true} smooth={true} offset={50} duration={3500}>

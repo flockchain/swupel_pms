@@ -79,12 +79,12 @@ const ScrollModelAnimation = () => {
       thirdCube.position.x = 2;
       chain.position.x = 2;
 
-      earth.position.y = 0;
-      whiteBall.position.y = -3.8;
-      firstCube.position.y = -7;
-      secondCube.position.y = -8.5;
-      thirdCube.position.y = -10;
-      chain.position.y = -8.2;
+      earth.position.y = -0.2;
+      whiteBall.position.y = -4.5;
+      firstCube.position.y = -7.7;
+      secondCube.position.y = -9.2;
+      thirdCube.position.y = -10.7;
+      chain.position.y = -8.9;
 
       firstCube.rotation.y = 2;
       secondCube.rotation.y = 2;
