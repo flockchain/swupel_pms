@@ -6,7 +6,7 @@ import Demo from "./Demo";
 
 export const DivSpinner = () => <div>Loading...</div>
 
-export const DivContainer = forwardRef<HTMLInputElement>(({ }, ref) => (
+export const DivContainer = forwardRef<HTMLInputElement>(({  }, ref) => (
     <>
     <div ref={ref} className="fixed top-0 left-0 outline-none"></div>
     <section className="grid items-center relative text-lg uppercase lg:pr-[600px] pt-[50px] md:pt-[100px] lg:pt-[50px] font-neue text-[#78ecb4]"  id='top'>
@@ -26,6 +26,8 @@ export const DivContainer = forwardRef<HTMLInputElement>(({ }, ref) => (
     <br></br>
     </>
 ));
+
+DivContainer.displayName = 'MyComponent';
 
 const Loader = () => {
     return (
