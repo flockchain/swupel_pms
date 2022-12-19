@@ -3,7 +3,7 @@ import React from 'react';
 const Problems = () => {
 
     return(
-        <div className='flex flex-col items-center justify-center bg-[#232425] p-4 rounded-lg'>
+        <div className='flex flex-col items-center justify-center 2xl:w-[800px] bg-[#232425] p-4 rounded-lg'>
             <div className='flex flex-col items-center justify-center tracking-wider bg-[#070c16] p-6'>
                 <h1 className='pb-2 text-3xl font-bold uppercase text-center'>
                     Problems to be solved
